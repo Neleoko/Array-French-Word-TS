@@ -1,0 +1,21 @@
+{
+  "name": "array-french-word-ts",
+  "version": "1.0.0",
+  "description": "Dictionnaire de mots français",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "neleoko",
+  "license": "MIT"
+}
