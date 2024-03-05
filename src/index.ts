@@ -1,2 +1,2 @@
-export * from './functions.mjs'
+export * from './functions'
 

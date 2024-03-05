@@ -1,4 +1,4 @@
-import {getWordsFromFile} from "./functions.mjs";
+import {getWordsFromFile} from "./functions";
 
 const words = getWordsFromFile();
 console.log(words);

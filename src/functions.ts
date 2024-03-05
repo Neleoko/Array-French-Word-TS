@@ -1,6 +1,6 @@
-import fs from 'fs';
+import fs from "fs";
 
-async function getWordsFromFile(): Promise<string[]> {
+function getWordsFromFile(): string[] {
 
     try {
         // Lire le contenu du fichier JSON

@@ -5,11 +5,6 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "type": "module",
-  "devDependencies": {
-    "@types/node": "^20.11.24",
-    "tsup": "^8.0.2",
-    "typescript": "^5.3.3"
-  },
   "scripts": {
     "build": "tsup"
   },
@@ -17,5 +12,11 @@
     "test"
   ],
   "author": "neleoko",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.4.2",
+    "@types/node": "^20.11.24",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
 }

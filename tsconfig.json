@@ -3,13 +3,19 @@
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "target": "esnext",
-    "moduleResolution": "Node10",
-    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "module": "commonjs",
     "declaration": true,
     "isolatedModules": true,
     "noEmit": true,
-    "outDir": "dist"
+    "jsx": "react",
+    "allowJs": true,
+    "outDir": "dist",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "sourceMap": true
   },
   "include": [
     "src"
