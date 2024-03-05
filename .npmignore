@@ -1,6 +1,6 @@
 .idea/**
 
-/src
+/src/**/*
 /node_modules
 
 tsconfig.json
